@@ -179,3 +179,69 @@ Go 只有<b>一种</b>循环结构：for 循环。
 一旦条件表达式的布尔值为 false，循环迭代就会终止。
 
 > 注意：和 C、Java、JavaScript 之类的语言不同，Go 的 for 语句后面的三个构成部分外没有小括号， 大括号 { } 则是必须的。
+
+```go
+func main() {
+	sum := 0
+	for i := 0; i < 10; i++ {
+		sum += i
+	}
+	fmt.Println(sum)
+}
+```
+
+初始化语句和后置语句是可选的。
+
+```go
+func main() {
+	sum := 1
+	for ; sum < 1000; {
+		sum += sum
+	}
+	fmt.Println(sum)
+}
+```
+
+### for 是 Go 中的 “while”
+
+此时你可以去掉分号达到 while 的效果，因为 C 的 while 在 Go 中叫做 for。
+
+```go
+func main() {
+	sum := 1
+	for sum < 1000 {
+		sum += sum
+	}
+	fmt.Println(sum)
+}
+
+```
+
+### 无限循环
+
+如果省略循环条件，该循环就不会结束，因此无限循环可以写得很紧凑。
+
+```go
+func main() {
+	for {
+	}
+}
+```
+
+### if 语句
+
+Go 的 if 语句与 for 循环类似，表达式外无需小括号 ( ) ，而大括号 { } 则是必须的。
+
+```go
+func sqrt(x float64) string {
+	if x < 0 {
+		return sqrt(-x) + "i"
+	}
+	return fmt.Sprint(math.Sqrt(x))
+}
+
+func main() {
+	fmt.Println(sqrt(2), sqrt(-4))
+}
+// 1.4142135623730951 2i
+```
