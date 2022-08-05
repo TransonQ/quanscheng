@@ -4,7 +4,7 @@ sidebar_position: 1
 
 import NavList from '@site/src/components/NavList'
 
-import { website } from '@site/src/data/nav'
+import { website, course, cheatsheet } from '@site/src/data/nav'
 
 # 导航
 
@@ -14,22 +14,8 @@ import { website } from '@site/src/data/nav'
 
 ## 教程
 
-| Site                                                    | Note       | Site                                                     | Note               |
-| ------------------------------------------------------- | ---------- | -------------------------------------------------------- | ------------------ |
-| [ShellScript 教程](https://shellscript.readthedocs.io/) | shell 编程 | [web3.js 教程](https://learnblockchain.cn/docs/web3.js/) | Web3.js 相关的 api |
-|                                                         |            | [web3.js (en)](https://web3js.readthedocs.io/)           | Web3.js 相关的 api |
+<NavList list={course}></NavList>
 
 ## 小抄
 
-| Site                                                         | Note      | Site                                                                     | Note          |
-| ------------------------------------------------------------ | --------- | ------------------------------------------------------------------------ | ------------- |
-| [flex-cheatsheet](https://yoksel.github.io/flex-cheatsheet/) | flex 小抄 | [react(ts) CheatSheet](https://react-typescript-cheatsheet.netlify.app/) | react+ts 小抄 |
-|                                                              |           |                                                                          |               |
-
-## 工具
-
-| Site                                      | Note                  | Site                                      | Note                   |
-| ----------------------------------------- | --------------------- | ----------------------------------------- | ---------------------- |
-| [grid-layout](https://grid.layoutit.com/) | grid 布局编辑效果查看 | [Lorem Picsum](https://picsum.photos/)    | 请求指定大小的随机图片 |
-| [favicon.io](https://favicon.io/)         | favicon 生成器        | [box-shadow.dev](https://box-shadow.dev/) | css 阴影调试           |
-|                                           |                       |                                           |                        |
+<NavList list={cheatsheet}></NavList>

@@ -1,0 +1,24 @@
+{
+  "course": [
+    {
+      "title": "ShellScript 教程",
+      "link": "https://shellscript.readthedocs.io",
+      "note": "shell 编程"
+    },
+    {
+      "title": "web3.js 教程",
+      "link": "https://learnblockchain.cn/docs/web3.js",
+      "note": "Web3.js 相关的 api"
+    },
+    {
+      "title": "Go语言之旅",
+      "link": "https://tour.go-zh.org/",
+      "note": "go基础总览"
+    },
+    {
+      "title": "Rust 程序设计语言",
+      "link": "https://kaisery.github.io/trpl-zh-cn/",
+      "note": "rust语言书籍"
+    }
+  ]
+}

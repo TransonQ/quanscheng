@@ -10,6 +10,11 @@
       "title": "Next.js",
       "link": "https://www.nextjs.cn/",
       "note": "这是一个用于 生产环境的 React 框架"
+    },
+    {
+      "title": "Docusaurus",
+      "link": "https://docusaurus.io/zh-CN/",
+      "note": "facebook开源的文档框架"
     }
   ]
 }

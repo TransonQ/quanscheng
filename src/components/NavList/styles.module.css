@@ -1,6 +1,8 @@
 .nav_card {
   cursor: pointer;
   padding: 16px !important;
+  box-sizing: border-box !important;
+  transition: all 0.3s !important;
 }
 .nav_card:hover {
   border: 1px solid var(--ifm-color-primary) !important;
