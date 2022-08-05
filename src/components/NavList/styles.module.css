@@ -3,7 +3,7 @@
   padding: 16px !important;
 }
 .nav_card:hover {
-  border-color: var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-primary) !important;
 }
 
 .link {
