@@ -1,0 +1,15 @@
+{
+  "website": [
+    {
+      "title": "Tailwind CSS",
+      "link": "https://www.tailwindcss.cn/",
+      "note": "无需离开您的 HTML，即可快速建立现代网站。"
+    },
+    { "title": "Vite", "link": "https://cn.vitejs.dev/", "note": "下一代前端开发与构建工具" },
+    {
+      "title": "Next.js",
+      "link": "https://www.nextjs.cn/",
+      "note": "这是一个用于 生产环境的 React 框架"
+    }
+  ]
+}

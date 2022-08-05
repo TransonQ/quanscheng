@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: go 基础知识点简要整理
 ---
 
 # golang start
@@ -81,7 +82,7 @@ sidebar_position: 1
 
 - ```go
   var c, python, java bool // 布尔值, 默认false
-
+  
   func main() {
   	var i int // 整数 , 默认 0
   	fmt.Println(i, c, python, java)
@@ -99,19 +100,19 @@ sidebar_position: 1
 
 - ```go
   bool
-
+  
   string
-
+  
   int  int8  int16  int32  int64
   uint uint8 uint16 uint32 uint64 uintptr
-
+  
   byte // uint8 的别名
-
+  
   rune // int32 的别名
       // 表示一个 Unicode 码点
-
+  
   float32 float64
-
+  
   complex64 complex128
   ```
 
@@ -129,7 +130,7 @@ sidebar_position: 1
 
 - ```go
   零值是：
-
+  
   数值类型为 0，
   布尔类型为 false，
   字符串为 ""（空字符串）。

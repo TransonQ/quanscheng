@@ -1,8 +1,8 @@
 {
-  "label": "go",
-  "position": 2,
+  "label": "Go",
+  "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "123"
+    "description": " "
   }
 }
