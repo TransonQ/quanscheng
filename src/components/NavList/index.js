@@ -17,7 +17,12 @@ const Card = ({ title, link, note }) => {
         <h2 className='text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module'>
           <a className={styles.link}>{title}</a>
         </h2>
-        <p className='text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module'>
+        <p
+          className={clsx(
+            'text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module',
+            styles.note
+          )}
+        >
           {note}
         </p>
       </div>

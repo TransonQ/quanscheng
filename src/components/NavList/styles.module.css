@@ -2,7 +2,15 @@
   cursor: pointer;
   padding: 16px !important;
 }
+.nav_card:hover {
+  border-color: var(--ifm-color-primary);
+}
 
 .link {
   text-decoration: none;
+}
+
+.note {
+  margin: 0 !important;
+  font-size: small !important;
 }
