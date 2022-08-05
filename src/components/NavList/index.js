@@ -1,20 +1,26 @@
-import React from 'react'
+import React, { useCallback } from 'react'
+
+import clsx from 'clsx'
+import styles from './styles.module.css'
 
 const Card = ({ title, link, note }) => {
+  const handleClick = useCallback(() => window.open(link), [])
   return (
     <article className='col col--6 margin-bottom--lg'>
-      <a
-        href={link}
-        target="_blank"
-        className='card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module'
+      <div
+        onClick={handleClick}
+        className={clsx(
+          'card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module',
+          styles.nav_card
+        )}
       >
         <h2 className='text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module'>
-          {title}
+          <a className={styles.link}>{title}</a>
         </h2>
         <p className='text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module'>
           {note}
         </p>
-      </a>
+      </div>
     </article>
   )
 }

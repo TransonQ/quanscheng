@@ -1,0 +1,8 @@
+.nav_card {
+  cursor: pointer;
+  padding: 16px !important;
+}
+
+.link {
+  text-decoration: none;
+}
