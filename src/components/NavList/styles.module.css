@@ -1,11 +1,30 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px dotted var(--ifm-color-primary-light);
+  border-radius: var(--ifm-card-border-radius);
+  margin: 16px;
+  padding: 40px 0 0;
+  position: relative;
+}
+.card_head {
+  position: absolute;
+  top: 0px;
+  padding: 4px 16px;
+  background-color: var(--ifm-color-primary-light);
+  border-top-left-radius: var(--ifm-card-border-radius);
+  border-bottom-right-radius: var(--ifm-card-border-radius);
+}
+
 .nav_card {
   cursor: pointer;
   padding: 16px !important;
   box-sizing: border-box !important;
   transition: all 0.3s !important;
+  box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 15%);
 }
 .nav_card:hover {
-  box-shadow: 0px 0px 10px 0px var(--ifm-color-primary) !important;
+  box-shadow: 0px 0px 6px 0px var(--ifm-color-primary) !important;
 }
 
 .link {
