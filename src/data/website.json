@@ -1,20 +1,40 @@
 {
   "website": [
     {
-      "title": "Tailwind CSS",
-      "link": "https://www.tailwindcss.cn/",
-      "note": "无需离开您的 HTML，即可快速建立现代网站。"
-    },
-    { "title": "Vite", "link": "https://cn.vitejs.dev/", "note": "下一代前端开发与构建工具" },
-    {
       "title": "Next.js",
       "link": "https://www.nextjs.cn/",
       "note": "这是一个用于 生产环境的 React 框架"
     },
     {
+      "title": "React Native",
+      "link": "https://reactnative.cn/",
+      "note": "一次学习，随处编写"
+    },
+    {
+      "title": "Tailwind CSS",
+      "link": "https://www.tailwindcss.cn/",
+      "note": "无需离开您的 HTML，即可快速建立现代网站。"
+    },
+    {
+      "title": "Styled Components",
+      "link": "https://styled-components.com/",
+      "note": "Use the best bits of ES6 and CSS to style your apps without stress 💅🏾"
+    },
+    { "title": "Vite", "link": "https://cn.vitejs.dev/", "note": "下一代前端开发与构建工具" },
+    {
       "title": "Docusaurus",
       "link": "https://docusaurus.io/zh-CN/",
       "note": "facebook开源的文档框架"
+    },
+    {
+      "title": "Web.dev",
+      "link": "https://web.dev/",
+      "note": "Let's build the future of the web, together"
+    },
+    {
+      "title": "Hello Github",
+      "link": "https://hellogithub.com/",
+      "note": "分享 GitHub 上有趣、入门级的开源项目"
     }
   ]
 }

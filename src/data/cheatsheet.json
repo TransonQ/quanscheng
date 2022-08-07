@@ -1,12 +1,12 @@
 {
   "cheatsheet": [
     {
-      "title": "flex-cheatsheet",
+      "title": "flex 小抄",
       "link": "https://yoksel.github.io/flex-cheatsheet",
       "note": "flex速查小抄"
     },
     {
-      "title": "react-ts cheatsheet",
+      "title": "react-ts 小抄",
       "link": "https://react-typescript-cheatsheet.netlify.app",
       "note": "react-ts 速查小抄"
     }

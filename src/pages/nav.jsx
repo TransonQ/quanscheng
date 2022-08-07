@@ -7,7 +7,7 @@ import React from 'react'
 const About = () => {
   return (
     <Layout>
-      <NavList list={website} title='网址' />
+      <NavList list={website} title='website' />
       <NavList list={cheatsheet} title='小抄' />
       <NavList list={course} title='教程' />
     </Layout>
