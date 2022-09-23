@@ -18,3 +18,17 @@ description: 生成器
 > 充满科技感的 svg 生成器
 
 ![](src/barjr_preview.png)
+
+### [photomosh](https://photomosh.com/)
+
+> 图片破碎感处理工具
+
+![](src/mosh_before.png)
+
+![](src/mosh_after.png)
+
+### [trianglify](https://trianglify.io/)
+
+> 菱形色块背景生成器
+
+![](src/trianglify_preview.png)
