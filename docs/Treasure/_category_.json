@@ -1,0 +1,8 @@
+{
+  "label": "资源库",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "一些实用的资源"
+  }
+}
