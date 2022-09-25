@@ -2,7 +2,7 @@
 slug: valtio-pub-sub
 title: 使用valtio实现请求响应错误toast
 authors: [qsc]
-tags: [axios]
+tags: [valtio, useSyncExternalStore]
 ---
 
 ## 关于全局的请求响应错误提示
