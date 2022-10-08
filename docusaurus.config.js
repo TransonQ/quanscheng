@@ -56,14 +56,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // announcementBar: {
-      //   id: 'support_us',
-      //   content:
-      //     '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="">GitHub</a>',
-      //   backgroundColor: '#fafbfc',
-      //   textColor: '#091E42',
-      //   isCloseable: true,
-      // },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '觉得有帮助的话, 赏一个⭐️吧 👉🏻 <a target="_blank" rel="noopener noreferrer" href="https://github.com/quanscheng/quanscheng">GitHub</a>',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: true,
+      },
       docs: {
         sidebar: {
           hideable: true,
@@ -84,7 +84,7 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          { to: '/blog', label: '博客', position: 'right' },
+          { to: '/blog', label: '博客', position: 'left' },
 
           // {
           //   href: 'https://github.com/quanscheng',
