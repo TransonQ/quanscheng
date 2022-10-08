@@ -41,10 +41,11 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          blogTitle: 'Transon的博客',
+          blogDescription: '正在努力建设中...',
+          // postsPerPage: 'ALL',
+          blogSidebarTitle: '全部博文',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -56,14 +57,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      announcementBar: {
-        id: 'support_us',
-        content:
-          '觉得有帮助的话, 赏一个⭐️吧 👉🏻 <a target="_blank" rel="noopener noreferrer" href="https://github.com/quanscheng/quanscheng">GitHub</a>',
-        backgroundColor: '#fafbfc',
-        textColor: '#091E42',
-        isCloseable: true,
-      },
+      // announcementBar: {
+      //   id: 'support_us',
+      //   content:
+      //     '觉得有帮助的话, 赏一个⭐️吧 👉🏻 <a target="_blank" rel="noopener noreferrer" href="https://github.com/quanscheng/quanscheng">GitHub</a>',
+      //   backgroundColor: '#1c1e21',
+      //   textColor: '#0088CCff',
+      //   isCloseable: true,
+      // },
       docs: {
         sidebar: {
           hideable: true,
