@@ -159,3 +159,11 @@ if (article) {
 或者: https://developer.chrome.com/docs/extensions/mv3/content_scripts/
 
 ![image-20221011191005852](./chrome-extension-3.assets/image-20221011191005852.png)
+
+## 继续探索
+
+我们希望您喜欢构建这个 Chrome 扩展程序，并很高兴继续您的 Chrome 开发学习之旅。我们推荐以下学习路径：
+
+- [Chrome 扩展架构](https://developer.chrome.com/docs/extensions/mv3/architecture-overview/)有点备份，并在一般情况下填充了很多关于扩展架构的细节。
+- [开发人员指南](https://developer.chrome.com/docs/extensions/mv3/devguide/)有几十个附加链接，指向与高级扩展创建相关的文档。
+- 扩展可以访问强大的 API，而不是开放网络上可用的 API。[Chrome APIs 文档介绍](https://developer.chrome.com/docs/extensions/reference/)了每个 API。
