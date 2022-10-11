@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: 'Transon Quan',
   tagline: '收藏从未停止, 学习从未开始',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://github.com/quanscheng/quanscheng',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -87,11 +87,11 @@ const config = {
           },
           { to: '/blog', label: '博客', position: 'left' },
 
-          // {
-          //   href: 'https://github.com/quanscheng',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            href: 'https://github.com/quanscheng/quanscheng',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
       // footer: {

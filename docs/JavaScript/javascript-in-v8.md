@@ -321,7 +321,7 @@ JavaScript 中存在两种变量：局部变量和全局变量。全局变量的
 
 在 V8 中，**会把堆分为新生代和老生代两个区域**，**新生代中存放的是生存时间短的对象，老生代中存放生存时间久的对象：**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/EO58xpw5UMPIOySs2IeaBfbRychdd5HKEmcnCIgNXzBR12vjhlzvq9q0Xia3OrdRCcYYlwIF7ic5zNVaibXYww2Eg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](./javascript-in-v8.assets/640.png)
 
 新⽣代通常只⽀持 1 ～ 8M 的容量，⽽⽼⽣代⽀持的容量就⼤很多。对于这两块区域，V8 分别使⽤两个不同的垃圾回收器，以便更⾼效地实施垃圾回收：
 
