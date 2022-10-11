@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: 开发谷歌扩展(一)
+title: 开发谷歌扩展(一)介绍
 ---
 
 ## 知识
