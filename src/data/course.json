@@ -1,6 +1,21 @@
 {
   "course": [
     {
+      "title": "什么是npm",
+      "link": "https://www.freecodecamp.org/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/",
+      "note": ""
+    },
+    {
+      "title": "前端工程化入门教程",
+      "link": "https://chinese.freecodecamp.org/news/front-end-engineering-tutorial/",
+      "note": ""
+    },
+    {
+      "title": "React入门手册",
+      "link": "https://chinese.freecodecamp.org/news/react-beginner-handbook/",
+      "note": "这篇文章的目的在于为 React 初学者提供一些学习指导。"
+    },
+    {
       "title": "ShellScript 教程",
       "link": "https://shellscript.readthedocs.io",
       "note": "shell 编程"
