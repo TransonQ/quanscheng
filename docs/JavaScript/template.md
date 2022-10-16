@@ -10,3 +10,5 @@ description: 一些个人整理的模板
 - [react-vite-template](https://github.com/quanscheng/react-vite-template) 基于 vite 同时保持并 CRA 内置的 eslint
 
 > 可以直接使用 `npx qsc-cli create xxx` 选择对应的模板即可
+
+- [arco-admin](https://github.com/quanscheng/arco-admin) 制作中...
