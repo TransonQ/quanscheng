@@ -4,7 +4,9 @@ title: 一行代码实现CSS布局
 description: 一行代码实现CSS布局
 ---
 
-## 01. 超级居中- grid 中的 `place-items: center`
+## 01. 超级居中- grid 中的
+
+`place-items: center`
 
 ```html
 <div class="parent blue">
@@ -24,7 +26,9 @@ description: 一行代码实现CSS布局
 }
 ```
 
-## 02. 煎饼结构式子 `flex:0 1 <baseWidth>`
+## 02. 煎饼结构式子
+
+`flex:0 1 <baseWidth>`
 
 - flex 简写代表：flex: `<flex-grow>`  `<flex-shrink>`  `<flex-basis>`
 
@@ -50,7 +54,9 @@ description: 一行代码实现CSS布局
 }
 ```
 
-## 03. 侧边栏布局 `gird-template-columns:minmax(<min>,<max>)`
+## 03. 侧边栏布局
+
+`gird-template-columns:minmax(<min>,<max>)`
 
 - 简单说明
   此演示对网格布局利用了 minmax 函数。我们在这里做的是将最小侧边栏大小设置为 150px ，但在更大的屏幕上，让它伸展出 25% 。侧边栏将始终占据其父级水平空间的 25%，直到 25% 变得小于 150px 。
@@ -80,7 +86,9 @@ description: 一行代码实现CSS布局
 }
 ```
 
-## 04. 煎饼堆栈布局`grid-template-rows:auto 1fr auto`
+## 04. 煎饼堆栈布局
+
+`grid-template-rows:auto 1fr auto`
 
 ```html
 <div class="parent">
@@ -112,7 +120,9 @@ description: 一行代码实现CSS布局
 }
 ```
 
-## 05. 圣杯布局`grid-template:auto 1fr auto / auto 1fr auto`
+## 05. 圣杯布局
+
+`grid-template:auto 1fr auto / auto 1fr auto`
 
 - 说明
   属性和值对为：grid-template: auto 1fr auto / auto 1fr auto 。第一个和第二个以空格分隔的列表之间的斜线是行和列之间的分隔符。
@@ -170,7 +180,9 @@ description: 一行代码实现CSS布局
 }
 ```
 
-## 06. \***\*12 跨网格 `grid-template-columns: repeat(12, 1fr)`**
+## 06. 12 跨网格
+
+`grid-template-columns: repeat(12, 1fr)`\*\*
 
 - 说明
   接下来我们有另一个经典布局：12 跨网格。您可以使用 repeat() 函数在 CSS 中快速编写网格。对网格模板列使用 repeat(12, 1fr); 将为每个 1fr 提供 12 列。
@@ -215,7 +227,9 @@ description: 一行代码实现CSS布局
 }
 ```
 
-## 07. \***\*RAM `(Repeat, Auto, MinMax): grid-template-columns(auto-fit, minmax(<base>, 1fr))`**
+## 07. RAM
+
+`(Repeat, Auto, MinMax): grid-template-columns(auto-fit, minmax(<base>, 1fr))`
 
 ```html
 <div class="parent white">
@@ -234,7 +248,9 @@ description: 一行代码实现CSS布局
 }
 ```
 
-## 08. 排列布局 \***\*`justify-content: space-between`\*\***
+## 08. 排列布局
+
+`justify-content: space-between`
 
 ```html
 <div class="parent white">
@@ -284,7 +300,9 @@ description: 一行代码实现CSS布局
 }
 ```
 
-## 09. **Clamping My Style `clamp(<min>, <actual>, <max>)`**
+## 09. Clamping My Style
+
+`clamp(<min>, <actual>, <max>)`
 
 ```html
 <div class="parent white">
@@ -318,7 +336,9 @@ description: 一行代码实现CSS布局
 }
 ```
 
-## 10. \***\*保持宽高比 `aspect-ratio: <width> / <height>`**
+## 10. 保持宽高比
+
+`aspect-ratio: <width> / <height>`
 
 ```html
 <div class="parent white">
