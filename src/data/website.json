@@ -1,6 +1,11 @@
 {
   "website": [
     {
+      "title": "开源项目指南",
+      "link": "https://opensource.guide/zh-hans/",
+      "note": "了解一下如何启动和发展开源项目。"
+    },
+    {
       "title": "Next.js",
       "link": "https://www.nextjs.cn/",
       "note": "这是一个用于 生产环境的 React 框架"
