@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: 'Transon Quan',
   tagline: '收藏从未停止, 学习从未开始',
-  url: 'https://github.com/quanscheng/quanscheng',
+  url: 'https://quanscheng.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
