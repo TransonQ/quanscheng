@@ -12,13 +12,30 @@ function HomepageHeader() {
   return (
     <header className={clsx(styles.heroBanner)}>
       <div className='container'>
-        <img src={profile} style={{ width: 280, borderRadius: '50%' }} />
+        <img
+          src={profile}
+          style={{ width: 280, borderRadius: '50%' }}
+        />
         <h1 className='hero__title'>{siteConfig.title}</h1>
         <p className='hero__subtitle'>{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link className='button button--secondary button--lg' to='/docs/intro'>
-            打开文档
-          </Link>
+        <div className={styles['mutiple-button-box']}>
+          <div className={styles.buttons}>
+            <Link
+              className='button button--secondary button--lg'
+              to='/docs/intro'
+            >
+              文档
+            </Link>
+          </div>
+          <div style={{ width: 16 }} />
+          <div className={styles.buttons}>
+            <Link
+              className='button button--secondary button--lg'
+              to='/blog'
+            >
+              博客
+            </Link>
+          </div>
         </div>
       </div>
     </header>

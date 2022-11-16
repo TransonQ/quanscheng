@@ -27,3 +27,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.mutiple-button-box {
+  display: flex;
+  justify-content: center;
+}
