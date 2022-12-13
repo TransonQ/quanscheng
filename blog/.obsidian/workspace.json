@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "043326ce89a20445",
+    "type": "split",
+    "children": [
+      {
+        "id": "be9398d9ebbd19e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abe4624b1064bdab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2022-12-13-use-immer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "58f9c000250b45f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0c31f5c3078e853",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ef6eaec7e44b62a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c2c37c0d6ad865b6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "074e309155ba543c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9655e2a96216d828",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6c620df5940baf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3118b0b385a947b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2022-12-13-use-immer.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bac40f2bfaacaf84",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2022-12-13-use-immer.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f68e631f7f10de4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d7320fddfd6fec0a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2022-12-13-use-immer.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "abe4624b1064bdab",
+  "lastOpenFiles": [
+    "2022-12-13-react-ts-starter.md",
+    "2022-12-13-use-immer.md"
+  ]
+}
