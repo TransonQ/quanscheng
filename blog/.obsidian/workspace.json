@@ -1,0 +1,123 @@
+{
+  "main": {
+    "id": "64144f9c6e3036bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "e19e75fee43653a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "129909b46d041442",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d4fa68ce2741c2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3ae173e8302f607",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "566c99c0b192a11b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9f6e8bc29e61e5e1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f3a4567489dfdb90",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "786f89d454b1464d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8550ab176c78a488",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ca02814fad44bdc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "6fb57c9a6b3e45ff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d7d49b829d681c80",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "129909b46d041442",
+  "lastOpenFiles": [
+    "2022/PersonalSummary.md",
+    "ts-react/React + TS最小上手指南.md",
+    "0-开始之前.md",
+    "2-props.md",
+    "1-快速上手.md",
+    "1-快速上手.assets/image-20221204170737343.png"
+  ]
+}
