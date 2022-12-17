@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5544641ae9b8c55a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2022-12-17.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-12-13-use-immer.md",
+                "file": "2022-12-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-12-13-use-immer.md",
+                "file": "2022-12-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-12-13-use-immer.md"
+                "file": "2022-12-17.md"
               }
             }
           }
@@ -136,9 +149,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "abe4624b1064bdab",
+  "active": "5544641ae9b8c55a",
   "lastOpenFiles": [
-    "2022-12-13-react-ts-starter.md",
-    "2022-12-13-use-immer.md"
+    "2022-12-13-use-immer.md",
+    "2022-12-17.md",
+    "2022-12-13-react-ts-starter.md"
   ]
 }
