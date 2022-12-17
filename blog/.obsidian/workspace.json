@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2022-12-17-react-router-6-5.md",
+                "file": "2022-12-13-react-ts-starter.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-12-17-react-router-6-5.md",
+                "file": "2022-12-13-react-ts-starter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-12-17-react-router-6-5.md",
+                "file": "2022-12-13-react-ts-starter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,18 +125,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-12-17-react-router-6-5.md"
+                "file": "2022-12-13-react-ts-starter.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "97abb2c7e779cc85",
+  "active": "d7320fddfd6fec0a",
   "lastOpenFiles": [
     "2022-12-13-use-immer.md",
     "2022-12-17-react-router-6-5.md",
