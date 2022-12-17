@@ -1,6 +1,6 @@
 ---
 slug: react-router-6-5
-title: react-router-6.5: 支持可选路由段
+title: react-router-6.5支持可选路由段
 authors: [qsc]
 ---
 
