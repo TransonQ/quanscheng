@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "be9398d9ebbd19e1",
+        "id": "aaf624e2cce10ffd",
         "type": "tabs",
         "children": [
           {
-            "id": "abe4624b1064bdab",
+            "id": "97abb2c7e779cc85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2022-12-13-use-immer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5544641ae9b8c55a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2022-12-17-react-router-6.5.md",
+                "file": "2022-12-17-react-router-6-5.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-12-17-react-router-6.5.md",
+                "file": "2022-12-17-react-router-6-5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-12-17-react-router-6.5.md",
+                "file": "2022-12-17-react-router-6-5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-12-17-react-router-6.5.md"
+                "file": "2022-12-17-react-router-6-5.md"
               }
             }
           }
@@ -149,10 +136,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5544641ae9b8c55a",
+  "active": "97abb2c7e779cc85",
   "lastOpenFiles": [
     "2022-12-13-use-immer.md",
-    "2022-12-17-react-router-6.5.md",
+    "2022-12-17-react-router-6-5.md",
     "2022-12-13-react-ts-starter.md"
   ]
 }
