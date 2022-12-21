@@ -1,1 +1,1 @@
-Any application that can be written in JavaScript, will eventually be written in JavaScript.
+# 正能量韭菜一枚
