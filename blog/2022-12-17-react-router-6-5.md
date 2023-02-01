@@ -2,6 +2,7 @@
 slug: react-router-6-5
 title: react-router-6.5支持可选路由段
 authors: [qsc]
+tags: [react-router-dom]
 ---
 
 ## 可选路径参数

@@ -2,6 +2,7 @@
 slug: react-ts-starter
 title: React + TS最小上手指南
 authors: [qsc]
+tags: [react, TypeScript]
 ---
 
 > *前端开发*的最小上手指南
