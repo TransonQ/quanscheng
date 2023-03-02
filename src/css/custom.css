@@ -28,7 +28,3 @@
   --ifm-color-primary-lightest: #f19452;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-
-.theme-doc-sidebar-container {
-  height: 100vh;
-}
