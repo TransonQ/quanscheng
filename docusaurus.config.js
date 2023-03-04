@@ -79,12 +79,12 @@ const config = {
         hideOnScroll: true,
         items: [
           { to: '/nav', label: '导航', position: 'left' },
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: '文档',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: '文档',
+          // },
           { to: '/blog', label: '博客', position: 'left' },
 
           {
