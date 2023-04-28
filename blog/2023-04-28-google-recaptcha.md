@@ -27,6 +27,8 @@ yarn add react-google-recaptcha
 
 ```jsx title="部分代码示意"
 import ReCAPTCHA from 'react-google-recaptcha'
+
+const { REACT_APP_RECAPTCHA_KEY } = process.env // siteKey 配置进环境变量, 通常测试环境和正式环境是不一样的
 ...
 
 const recaptchaRef = useRef(null) // 可以获取到 recaptcha 自带的方法
