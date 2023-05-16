@@ -88,7 +88,7 @@ const config = {
           { to: '/blog', label: '博客', position: 'left' },
 
           {
-            href: 'https://github.com/quanscheng/quanscheng',
+            href: 'https://github.com/TransonQ',
             label: 'GitHub',
             position: 'right',
           },
