@@ -13,7 +13,7 @@ const FeatureList = [
           rel='noopener noreferrer'
           href='https://github.com/quanscheng'
         >
-          Transon Quan
+          TransonQ
         </a>
       </>
     ),

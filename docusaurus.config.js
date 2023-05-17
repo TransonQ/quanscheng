@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Transon',
+  title: 'TransonQ',
   tagline: '收藏从未停止, 学习从未开始',
   url: 'https://quanscheng.vercel.app',
   baseUrl: '/',
@@ -71,7 +71,7 @@ const config = {
         },
       },
       navbar: {
-        title: 'Transon',
+        title: 'TransonQ',
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/logo.svg',
