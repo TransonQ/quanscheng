@@ -25,7 +25,7 @@ yarn add react-google-recaptcha
 
 ## 三. 使用
 
-```jsx title="部分代码示意"
+```jsx  title="部分代码示意"
 import ReCAPTCHA from 'react-google-recaptcha'
 
 const { REACT_APP_RECAPTCHA_KEY } = process.env // siteKey 配置进环境变量, 通常测试环境和正式环境是不一样的

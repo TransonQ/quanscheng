@@ -128,7 +128,8 @@ const fireUser = (firstName: string, age: number, role: UserRole): User => {
 ```
 
 这强制返回正确的类型。如果不是声明的类型，编译器变报错，如下所示
-![](image/函数返回不合符返回值类型.png)
+![](./image/react-ts-starter-1.png)
+
 > 如果不希望严格返回指定类型, 可以不写函数返回类型, TS 自行推断返回值。TS 位置越少月好，如果不清楚返回类型，可以将鼠标悬停到函数名为止，查看推断类型。
 
 ### 可能会遇到的概念
@@ -150,7 +151,8 @@ function UserProfile() {
 ```
 
 通常 ts 项目会推断该函数组件返回值类型为`JSX.Element`
-![](image/函数组件类型推断.png)
+
+![](./image/react-ts-starter-2.png)
 
 TS 的方便之处：如果我们在返回了一个非 JSX 的元素，TS 会通过报错提示我们组件返回的不是一个 JSX 元素。
 
@@ -232,10 +234,12 @@ function UserProfile({ firstName, role = UserRole.SUBORDINATE }: UserProfileProp
 ### useState 自动推断类型
 
 使用最多的 hook 就是`useState`，但在大部分场景中是不需要为其定义类型的，只需要设置好初始值，ts 可以推断此状态的类型。
-![](image/useState在%20ts%20中不必定义类型.png)
+
+![](./image/react-ts-starter-3.png)
 
 在`tsx`中，如果使用`setState`方法时传入与初始值不同类型，那么 ts 将会报错。
-![](image/setState的ts约束.png)
+
+![](./image/react-ts-starter-4.png)
 
 ### useState 手动添加类型
 
@@ -329,7 +333,7 @@ function FireButton() {
 想知道单独生命的事件处理函数的时候，我们获取这个 event 的类型有两种方式：
 - 谷歌...
 - 先写一个内联回调，将鼠标悬停到内联回调的 event 上，根据编辑器的类型提示，类型拿来吧你。
-![](image/巧取%20event%20类型.gif)
+![](./image/react-ts-starter-5.gif)
 > 咱甚至都不需要理解发生了什么，c&v 就完事了。就是我们在 `useStata`了解到的泛型。
 
 ```tsx
@@ -379,12 +383,15 @@ function Layout({ children }: LayoutProps) {
 ```
 
 类型`React.ReactNode`相对宽松，它几乎允许我们传递任何 react 能渲染的东西。
-![](image/children类型之React.ReactNode.png)
+
+![](./image/react-ts-starter-6.png)
+
 如果想更加严格的约束并且只能传递 jsx ，可以使用：
+
 - `React.ReactElement`
 - `JSX.Element`
 这两种类型基本是相同的。并且相对于`React.ReactNode`更具限制性。
-![](image/约定组件传参只能是jsx类型.png)
+- ![](./image/react-ts-starter-7.png)
 
 ## TS 项目中使用第三库
 
@@ -393,7 +400,8 @@ function Layout({ children }: LayoutProps) {
 如今，许多第三方库已经附带了相应的类型。在这种情况下，不需要安装单独的包。
 
 但许多类型也维护在 GitHub 上的 DefinitelyTyped 存储库中，并在 @types 组织下发布（甚至 React 类型）。如果您安装没有类型的库，您会在导入语句中收到一条错误消息。
-![](image/第三方库类型缺失报错.png)
+
+![](./image/react-ts-starter-8.png)
 
 解决方式就是按照提示，复制粘贴对应的安装命令：
 ```bash
@@ -419,7 +427,7 @@ async function fetchUser() {
   return response.data;
 }
 ```
-![](image/axios类型.png)
+![](./image/react-ts-starter-9.png)
 
 `react-query`案例
 ```ts
@@ -476,7 +484,9 @@ npx create-next-app@latest --ts
 ### 检查一个类型
 
 查看类型上所有可用字段的最简单方法是使用 IDE 的自动完成功能。在此处按 CTRL + 空格键 (Windows) 或 Option + 空格键 (Mac)。
-![](image/vscode的自动补全功能.png)
+
+![](./image/react-ts-starter-10.png)
+
 如果要查看更深的类型依赖关系, `ctrl/cmd + 鼠标`。
 
 ### 解读错误信息
@@ -500,8 +510,10 @@ function Form() {
 ```
 
 ts 项目有个特点，几乎所有错误和不符合 ts 规范的都会在IDE以红色波浪线的形式标注出来。
-![](image/ts%20项目报错波浪线.png)
-什么是 IntrinsicAttributes 类型？在使用库（例如 React 本身）时，你会遇到许多像这样的奇怪类型名称。
+
+![](./image/react-ts-starter-11.png)
+
+什么是 IntrinsicAttributes 类型？在使用库（例如 React 本身)时，你会遇到许多像这样的奇怪类型名称。
 
 >建议：暂时忽略它们。最重要的信息在最后一行：类型上不存在属性“onChange”...
 
@@ -518,10 +530,10 @@ function Menu() {
   return <MenuItem isActive>Menu Item</MenuItem>;
 }
 ```
-![](image/styled-components%20案例.png)
+![](./image/react-ts-starter-12.png)
 
 看看这夸张的大量报错信息，很容易造成困扰。最实在的方法是直接滚动到悬浮弹窗的最底部。最有价值的亮点就在这里。
-![](image/排查第三方库的错误.gif)
+![](./image/react-ts-starter-13.gif)
 
 ### 将对象作为 props 可以让类型更整洁
 
@@ -566,7 +578,8 @@ function UserProfile({ firstName, role, fireUser }: User) {
 ```
 
 但是由于 `fireUser` 函数没有在 `User` 类型上定义，我们遇到了一个报错。
-![](image/添加不在%20props%20类型定义内的属性报错.png)
+
+![](./image/react-ts-starter-14.png)
 
 要创建正确的类型，我们可以通过将两种类型与 `&` 组合来使用所谓的 *交叉类型*。(交叉类型是将多个类型合并为一个类型。)
 ```tsx
