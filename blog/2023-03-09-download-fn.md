@@ -1,4 +1,5 @@
 ---
+title: 常用下载函数
 authors: [qsc]
 tags: [工具函数]
 ---
@@ -17,9 +18,9 @@ export function downLoadFile(url: string, filename: string, blank = true) {
 }
 ```
 
-## blob下载
+## blob 下载
 
-> 需要设置  responseType: 'blob'
+> 需要设置 responseType: 'blob'
 >
 > axios 案例
 >
@@ -27,7 +28,7 @@ export function downLoadFile(url: string, filename: string, blank = true) {
 > export const postDownloadLetter = () =>
 >   axios.request({
 >     method: 'post',
->     url: "url",
+>     url: 'url',
 >     responseType: 'blob',
 >   })
 > ```
@@ -35,7 +36,6 @@ export function downLoadFile(url: string, filename: string, blank = true) {
 代码
 
 ```ts
-
 export const downloadBlob = (blob: any, fileName: string) => {
   const elink = document.createElement('a')
   elink.download = fileName
@@ -47,4 +47,3 @@ export const downloadBlob = (blob: any, fileName: string) => {
   document.body.removeChild(elink)
 }
 ```
-
