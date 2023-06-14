@@ -42,9 +42,9 @@ const config = {
         blog: {
           showReadingTime: true,
           blogTitle: 'Transon的博客',
-          blogDescription: '正在努力建设中...',
+          blogDescription: '收藏从未停止, 学习从未开始',
           // postsPerPage: 'ALL',
-          blogSidebarTitle: '全部博文',
+          blogSidebarTitle: '全部',
           blogSidebarCount: 'ALL',
         },
         theme: {
@@ -83,7 +83,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '文档',
+            label: '笔记',
           },
           { to: '/blog', label: '博客', position: 'left' },
 
@@ -113,7 +113,6 @@ const config = {
 
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search',
-
       },
     }),
 }

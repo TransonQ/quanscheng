@@ -2,6 +2,7 @@
   "name": "quanscheng",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "pnpm@8.4.0+",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
