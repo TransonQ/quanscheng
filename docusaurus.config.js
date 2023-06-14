@@ -57,14 +57,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // announcementBar: {
-      //   id: 'support_us',
-      //   content:
-      //     '觉得有帮助的话, 赏一个⭐️吧 👉🏻 <a target="_blank" rel="noopener noreferrer" href="https://github.com/quanscheng/quanscheng">GitHub</a>',
-      //   backgroundColor: '#1c1e21',
-      //   textColor: '#0088CCff',
-      //   isCloseable: true,
-      // },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '觉得有帮助的话, 赏一个⭐️吧 👉🏻 <a target="_blank" rel="noopener noreferrer" href="https://github.com/TransonQ/quanscheng">GitHub</a>',
+        backgroundColor: '#ff8906',
+        textColor: '#fffffe',
+        isCloseable: true,
+      },
       docs: {
         sidebar: {
           hideable: true,
