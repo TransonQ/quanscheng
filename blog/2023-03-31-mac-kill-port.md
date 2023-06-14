@@ -13,7 +13,7 @@ tags: [MacOS]
 lsof -i :3000
 ```
 
-![macos-lsof](./image/macos-lsof.png)
+![macos-lsof](./img/macos-lsof.png)
 
 ```bash title="停止进程"
 kill -9 10956
