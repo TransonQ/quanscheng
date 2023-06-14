@@ -3,8 +3,6 @@ authors: [qsc]
 tags: [工具库,验证]
 ---
 
-
-
 # React项目中使用Google reCAPTCHA
 
 ## 一. 注册密钥
@@ -53,16 +51,16 @@ const onChange = (value) => {
 
 ...
 return (
-	<>
-    <ReCAPTCHA
-      ref={recaptchaRef}
-      // size="invisible"
-      sitekey={REACT_APP_RECAPTCHA_KEY}
-      onChange={onChange}
+  <>
+  <ReCAPTCHA
+    ref={recaptchaRef}
+    // size="invisible"
+    sitekey={REACT_APP_RECAPTCHA_KEY}
+    onChange={onChange}
     />
-    <Button disabled={!isVertified}>
-        Submit
-    </Button>
+  <Button disabled={!isVertified}>
+    Submit
+  </Button>
   </>
 )
 
