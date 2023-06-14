@@ -61,7 +61,7 @@ const config = {
         id: 'support_us',
         content:
           '觉得有帮助的话, 赏一个⭐️吧 👉🏻 <a target="_blank" rel="noopener noreferrer" href="https://github.com/TransonQ/quanscheng">GitHub</a>',
-        backgroundColor: '#ff8906',
+        backgroundColor: '#3da9fc',
         textColor: '#fffffe',
         isCloseable: true,
       },
