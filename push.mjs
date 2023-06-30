@@ -7,13 +7,15 @@ const day = d.getDate()
 const hour = d.getHours()
 const min = d.getMinutes()
 const sec = d.getSeconds()
-const time = ` 存档时间: ${year}-${month}-${day} ${hour}:${min}:${sec}`
+function fmt(num) {
+  if (num === 0) return '00'
+  if (num < 10) return '0' + num
+  return num
+}
 
+const time = ` 存档时间: ${year}-${fmt(month)}-${fmt(day)} ${fmt(hour)}:${fmt(min)}:${fmt(sec)}`
 // 查看当前分支名
-let process = await spinner(
-  'checking current branch',
-  () => $`git branch --show-current`
-)
+let process = await spinner('checking current branch', () => $`git branch --show-current`)
 const branch = process.stdout.trim()
 
 // 提交
