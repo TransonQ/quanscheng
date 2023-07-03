@@ -1,0 +1,14 @@
+{
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./img",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "showLineNumber": false,
+  "showFrontmatter": false,
+  "spellcheck": false,
+  "useTab": false,
+  "showInlineTitle": true,
+  "showUnsupportedFiles": false,
+  "newFileLocation": "current"
+}

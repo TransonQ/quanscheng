@@ -19,4 +19,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-docs/.obsidian
+docs/.obsidian/plugins
+docs/.obsidian/snippets
+docs/.obsidian/workspace.json
+docs/.obsidian/hotkeys.json
+docs/.obsidian/graph.json 
+docs/.obsidian/core-plugins.json
