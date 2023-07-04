@@ -17,6 +17,7 @@ description: 工具库
 ## 工具
 
 1. [destr](https://github.com/unjs/destr) 比`JSON.parse` 更快、更安全、更方便的替代方案。
+2. [mswjs](https://github.com/mswjs/msw) Mock Service Worker 是一个适用于浏览器和 Node.js 的无缝 REST/GraphQL API 模拟库。
 
 
 
