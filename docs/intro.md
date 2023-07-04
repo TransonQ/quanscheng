@@ -7,3 +7,4 @@ sidebar_position: 1
 :::info 笔记
 
 :::
+![笔记](./intro.png)

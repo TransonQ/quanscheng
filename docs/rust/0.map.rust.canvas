@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"ce4f248578956e44","x":13,"y":-37,"width":250,"height":60,"type":"text","text":"[教程](rust/教程.md)"},
+		{"id":"0a20f83ab1da69d2","x":-274,"y":-37,"width":96,"height":60,"color":"1","type":"text","text":"rust"}
+	],
+	"edges":[
+		{"id":"cb324bdb3164d10a","fromNode":"0a20f83ab1da69d2","fromSide":"right","toNode":"ce4f248578956e44","toSide":"left"}
+	]
+}
