@@ -12,10 +12,11 @@ tags: [vite]
 
 使用`npm`或者`pnpm`就没有这个问题.
 
-## vite.config.ts 使用 node 模块
 
-需要安装一下 node 的类型包
 
-```
-@types/node
-```
+## 关于软/硬链接的知识
+
+[从pnpm来看软硬链接的应用](https://mp.weixin.qq.com/s/IQjgzwFHDdXeTMG3GZunzw)
+
+[一文带你深度理解pnpm](https://mp.weixin.qq.com/s/7gwJZruwCbKwxqWlXvA3fQ)
+

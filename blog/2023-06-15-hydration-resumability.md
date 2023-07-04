@@ -4,8 +4,6 @@ authors: [qsc]
 tags: [hydration]
 ---
 
-
-
 ## hydration
 
 当 React、Vue、Svelte 或 Angular 等 SPA 框架添加了 SSR 支持时，水合作为一种算法首次出现。为了使这些框架在浏览器中变得交互式，它们必须从根 () 重新执行整个应用程序，以恢复序列化为 HTML (renderToString) 时丢失的状态和事件处理程序。
