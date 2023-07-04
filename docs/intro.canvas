@@ -7,7 +7,8 @@
 		{"type":"text","text":"[rust](rust/0.map.rust.canvas)","id":"55f9c3845c4181dd","x":-297,"y":-148,"width":250,"height":60},
 		{"type":"text","text":"[graphql](grapql/0.map.graphql.canvas)","id":"58751bdb3aa8830d","x":-297,"y":-68,"width":250,"height":60},
 		{"type":"text","text":"[prompt-engineering](prompt-engineering/提示工程资料.md)","id":"af282e44255ae66d","x":-297,"y":-548,"width":250,"height":60},
-		{"type":"text","text":"笔记","id":"167ac980c5b3eac6","x":-663,"y":-308,"width":85,"height":60,"color":"4"}
+		{"type":"text","text":"笔记","id":"167ac980c5b3eac6","x":-663,"y":-308,"width":85,"height":60,"color":"4"},
+		{"id":"699e6c9d51d982ad","x":-297,"y":12,"width":250,"height":60,"type":"text","text":"[algorithm](algorithm/0.map.algorithm.canvas)"}
 	],
 	"edges":[
 		{"id":"42736d358c782dbb","fromNode":"167ac980c5b3eac6","fromSide":"right","toNode":"82b5af6e8e517620","toSide":"left"},
@@ -16,6 +17,7 @@
 		{"id":"6f9d0373814061d8","fromNode":"167ac980c5b3eac6","fromSide":"right","toNode":"1f6bec4497e9b32d","toSide":"left"},
 		{"id":"5fd9e190de5cc916","fromNode":"167ac980c5b3eac6","fromSide":"right","toNode":"55f9c3845c4181dd","toSide":"left"},
 		{"id":"37b7d4e9159b6f9b","fromNode":"167ac980c5b3eac6","fromSide":"right","toNode":"58751bdb3aa8830d","toSide":"left"},
-		{"id":"ef8f74c3de12022d","fromNode":"167ac980c5b3eac6","fromSide":"right","toNode":"af282e44255ae66d","toSide":"left"}
+		{"id":"ef8f74c3de12022d","fromNode":"167ac980c5b3eac6","fromSide":"right","toNode":"af282e44255ae66d","toSide":"left"},
+		{"id":"21e83f4a39174652","fromNode":"167ac980c5b3eac6","fromSide":"right","toNode":"699e6c9d51d982ad","toSide":"left"}
 	]
 }
