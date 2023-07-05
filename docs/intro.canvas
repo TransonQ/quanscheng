@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"type":"text","text":"[javascript](js/0.map.javascript.canvas)","id":"a52995ce0cf2d4b4","x":-297,"y":-308,"width":250,"height":60},
-		{"type":"text","text":"[react](we_react/0.map.react.canvas)","id":"82b5af6e8e517620","x":-297,"y":-468,"width":250,"height":60},
+		{"type":"text","text":"[react](react/0.map.react.canvas)","id":"82b5af6e8e517620","x":-297,"y":-468,"width":250,"height":60},
 		{"type":"text","text":"[web3](web3/0.map.web3.canvas)","id":"5040535065e90074","x":-297,"y":-388,"width":250,"height":60},
 		{"type":"text","text":"[css](css/0.map.css.canvas)","id":"1f6bec4497e9b32d","x":-297,"y":-228,"width":250,"height":60},
 		{"type":"text","text":"[rust](rust/0.map.rust.canvas)","id":"55f9c3845c4181dd","x":-297,"y":-148,"width":250,"height":60},
