@@ -9,12 +9,24 @@ description: 工具库
 2. [react-menu](https://github.com/szhsin/react-menu) 用于构建菜单的组件 — 你可以构建包含各种项目类型的不同样式的菜单，它支持并发渲染，并且内置访问性支持。
 3. [codehike](https://codehike.org/) 为 mdx 构建智能代码演示。
 4. [tremor](https://www.tremor.so/) 用于快速构建仪表板的 React 库。
+5. [houseform](https://houseform.dev/) 基于zod的表单验证表单(受控)
+6. [react-intersection-observer](https://github.com/thebuilder/react-intersection-observer)  监视元素何时进入或离开视口.
+7. [react-i18next](https://react.i18next.com/) react项目多语言.
 
 
 ## RSC 生态
 
 1. [next-international](https://github.com/QuiiBz/next-international) Next.js 的类型安全国际化 (i18n)
 
+
+
+## 状态管理
+
+1. [jotai](https://jotai.org/) React 原始而灵活的状态管理,纯hooks体验.
+2. [zustand](https://zustand-demo.pmnd.rs/) redux的平替, 但是更优雅简洁.
+3. [valtio](https://valtio.pmnd.rs/) 基于代理和快照,能把react写成vue的风格.
+4. [legend-state](https://legendapp.com/open-source/state/) 基于观察者模式的新兴高性能的状态库.
+5. [swr](https://swr.vercel.app/zh-CN) 用于数据请求的 React Hooks 库
 
 
 ## 工具库

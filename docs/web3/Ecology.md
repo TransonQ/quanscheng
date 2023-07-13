@@ -1,0 +1,15 @@
+- [DeFi-Developer-Road-Map](https://github.com/OffcierCia/DeFi-Developer-Road-Map)  是去中心化金融（DeFi）开发者的学习和技能路线图，该路线图包括了从基础的区块链知识、智能合约、加密货币等概念开始，逐渐深入到各种DeFi协议、去中心化交易所（DEX）、流动性挖掘（Liquidity Mining）、闪电贷（Flash Loans）等高级概念和实际项目开发。
+- [awesome-ethereum](https://github.com/bekatom/awesome-ethereum) 一组很棒的以太坊和 Dapps 学习资源。
+- [awesome-web3](https://github.com/ahmet/awesome-web3) 一组很棒的 web3 学习资源。
+- [free-Web3-resources](https://github.com/FrancescoXX/free-Web3-resources) 给开发者和学习者提供了 Web3 相关资源，这些资源可以包括各种在线课程、文档、视频教程、社区和开放源代码库等。它们可以帮助更好地理解和使用 Web3 技术，构建去中心化、安全和可靠的应用。
+- [wagmi](https://github.com/wagmi-dev/wagmi) 是一个 React Hook 的集合，包含了你与以太坊交互所需的一切。wagmi 使连接钱包、显示 ENS 和余额信息、签署消息、与合约交互等变得简单——所有这些都有缓存、重复请求降重和持久化。
+- [ethers.js](https://github.com/ethers-io/ethers.js) 是一个完整的以太坊开发库，提供了一套易于使用的 API，用于在 Web3 浏览器和 node.js 环境中进行操作。ethers.js 可以用于与以太坊节点进行交互，例如读取账户余额和发送交易，还可以部署、管理和调用智能合约。与 web3.js 不同的是，ethers.js 专注于提供简洁、易于理解和安全的 API。
+- [embark](https://github.com/embarklabs/embark) 是一个用于轻松开发和部署 Serverless 去中心化应用（DApps）的框架。Embark 目前集成了 EVM 区块链（以太坊）、去中心化存储（IPFS） 和去中心化通信平台（Whisper 和 Orbit），部署支持 Swarm。
+- [lenstube](https://github.com/lenstube-xyz/lenstube) 是一个基于 Lens Protocol 构建的开源视频共享社交媒体平台，由 Livepeer 和 Vercel 提供支持，创作者上传视频时可以选择视频收集对象，限制收集人数、视频类别以及设置收集费用和推荐费用，也可以直接将发布的视频转发同步至 Lens。
+- [foundry](https://github.com/foundry-rs/foundry) 是一款用 Rust 编写的用于以太坊应用程序开发的快速、便携和模块化工具包。
+- [rainbowkit](https://github.com/rainbow-me/rainbowkit) 是一个 React 库，可以轻松地将钱包连接添加到 dapp。该工具可简化开发人员在开发DApp时需要进行的多钱包、多网络连接支持工作。RainbowKit支持所有EVM兼容链。
+- [web3-react](https://github.com/Uniswap/web3-react) 是一个用于 React 应用的开源库，旨在使 DApp 的开发更加容易。它提供了一套用于管理 Web3 实例的 React 组件和钩子，以及用于获取用户账户、网络等信息的功能。Web3-react 还可以轻松处理不同的 Web3 提供商，例如 MetaMask、WalletConnect、Portis 等。
+- [web3.js](https://github.com/web3/web3.js) 是以太坊官方的 JavaScript 库，提供了与以太坊区块链（和基于以太坊的其他区块链）进行交互的API。通过 web3.js，开发者可以从他们的应用中与区块链进行交互，例如读取账户信息、创建和管理智能合约、发送交易等。该库不仅限于浏览器环境，也可以在 node.js 环境中使用。Web3.js 支持以太坊 JSON-RPC API 的所有功能，并且提供了一些高级功能，如合约 ABIs 的自动解析、以太坊 gas 费用的自动计算和签名交易的功能。
+- [web3modal](https://github.com/WalletConnect/web3modal)  是一个多功能的库，可以轻松地将用户与 Dapp 连接起来并开始与区块链交互。可以在一个地方管理多链钱包连接流。在设计时同时考虑到开发人员和用户，它易于集成和定制，带来独特的体验。
+- [web3uikit](https://github.com/web3ui/web3uikit) 是一个 JavaScript 库，旨在为 Web3（以太坊、BSC、Polygon 等区块链）DApp 提供简单易用的登录和交互体验。它支持多种钱包提供商，如 MetaMask、WalletConnect、Portis、Trezor、Ledger 等，并且能够跨设备、浏览器和平台提供一致的用户体验。
+- [lenster](https://github.com/lensterxyz/lenster) 是一款使用 Lens Protocol 协议构建的去中心化且无需许可的 Web 3 社交媒体应用，允许连接 Web3 钱包和使用 Lens 来登陆。在 Lenster 可以发布帖子、浏览朋友圈和探索内容趋势，还可以直接搜索相关内容帖子或者用户 Profiles。
