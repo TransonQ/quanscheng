@@ -3,6 +3,10 @@ sidebar_position: 1
 description: 工具库
 ---
 
+## 订阅
+
+1. [ react 可视化探索 ](https://www.react-graph-gallery.com/) 
+
 ## React 生态
 
 1. [react-error-boundary](https://github.com/bvaughn/react-error-boundary) 函数组件一样可以使用错误边界。
@@ -12,6 +16,8 @@ description: 工具库
 5. [houseform](https://houseform.dev/) 基于zod的表单验证表单(受控)
 6. [react-intersection-observer](https://github.com/thebuilder/react-intersection-observer)  监视元素何时进入或离开视口.
 7. [react-i18next](https://react.i18next.com/) react项目多语言.
+8. [mdxeditor](https://mdxeditor.dev/) MDX Editor 是一个开源 React 组件，允许用户自然地编写 Markdown 文档.
+9. [virtuoso](https://virtuoso.dev/) 强大的虚拟列表组件.
 
 
 ## RSC 生态

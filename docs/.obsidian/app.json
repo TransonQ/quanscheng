@@ -10,5 +10,11 @@
   "useTab": false,
   "showInlineTitle": true,
   "showUnsupportedFiles": false,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
