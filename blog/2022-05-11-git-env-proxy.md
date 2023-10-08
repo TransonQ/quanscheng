@@ -40,3 +40,22 @@ git config --list
 # 如果设置了端口的话会找到如下的信息
 # http.proxy=127.0.0.1:端口号
 ```
+
+> `https` 代理同理
+
+## 上传问题
+
+如果出现`Git: fatal: unable to access 'https://xxxxxxxx.git/': Recv failure: Connection reset by peer` 此种类似的问题, 就是代理了对应的协议端口不行了, 尤其是私有仓库/公司仓库有的限定了访问端口或者不让用代理的. 
+
+解决方法:
+
+之前代理了什么清除一下
+
+```
+git config --global --unset http.proxy
+```
+
+```
+git config --global --unset https.proxy
+```
+
