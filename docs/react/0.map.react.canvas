@@ -1,9 +1,9 @@
 {
 	"nodes":[
 		{"type":"text","text":"[npm-libs](npm-libs.md)","id":"1471cdf67c1386a9","x":-207,"y":-185,"width":250,"height":60},
-		{"id":"60ba62c583297219","x":-207,"y":-105,"width":250,"height":60,"type":"text","text":"[hooks](react/hooks.md)"},
-		{"id":"d1148a105c1f980a","x":-207,"y":-25,"width":250,"height":60,"type":"text","text":"[RSC](react/RSC.md)"},
-		{"type":"text","text":"react","id":"ec5f9baf22de6a2c","x":-414,"y":-105,"width":100,"height":60,"color":"6"}
+		{"id":"60ba62c583297219","type":"text","text":"[hooks](react/hooks.md)","x":-207,"y":-105,"width":250,"height":60},
+		{"id":"d1148a105c1f980a","type":"text","text":"[RSC](react/RSC.md)","x":-207,"y":-25,"width":250,"height":60},
+		{"type":"text","text":"react","id":"ec5f9baf22de6a2c","x":-419,"y":-105,"width":105,"height":60,"color":"6"}
 	],
 	"edges":[
 		{"id":"b127d1e7897e6c8d","fromNode":"ec5f9baf22de6a2c","fromSide":"right","toNode":"1471cdf67c1386a9","toSide":"left"},

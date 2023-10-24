@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"type":"text","text":"algorithm","id":"713d94cade6487ee","x":-473,"y":-86,"width":120,"height":60,"color":"6"},
-		{"id":"8ef630cb740be9f6","x":-215,"y":-86,"width":181,"height":60,"type":"text","text":"[链表](algorithm/链表.md)"}
-	],
-	"edges":[
-		{"id":"f71392fddd346d8e","fromNode":"713d94cade6487ee","fromSide":"right","toNode":"8ef630cb740be9f6","toSide":"left"}
-	]
-}
