@@ -6,11 +6,13 @@ const NavPage = () => {
   return (
     <Layout>
       <NavList
-        list={{
-          title: '开源项目指南',
-          link: 'https://opensource.guide/zh-hans/',
-          note: '了解一下如何启动和发展开源项目。',
-        }}
+        list={[
+          {
+            title: '开源项目指南',
+            link: 'https://opensource.guide/zh-hans/',
+            note: '了解一下如何启动和发展开源项目。',
+          },
+        ]}
         title='website'
       />
     </Layout>
