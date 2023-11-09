@@ -21,7 +21,7 @@ const FeatureList = [
   {
     title: '关于',
     // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: <>Front-end Engineer in Fastlane</>,
+    description: <>Frontend engineer</>,
   },
   {
     title: '联系',

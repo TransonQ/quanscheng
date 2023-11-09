@@ -83,12 +83,12 @@ const config = {
         // },
         hideOnScroll: true,
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: '笔记',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: '笔记',
+          // },
           { to: '/blog', label: '博客', position: 'left' },
 
           {

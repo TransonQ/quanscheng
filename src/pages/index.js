@@ -19,7 +19,7 @@ function HomepageHeader() {
         <h1 className='hero__title'>{siteConfig.title}</h1>
         <p className='hero__subtitle'>{siteConfig.tagline}</p>
         <div className={styles['mutiple-button-box']}>
-          <div className={styles.buttons}>
+          {/* <div className={styles.buttons}>
             <Link
               className='button button--secondary button--lg'
               to='/docs/intro'
@@ -27,7 +27,7 @@ function HomepageHeader() {
               {'笔记'}
             </Link>
           </div>
-          <div style={{ width: 16 }} />
+          <div style={{ width: 16 }} /> */}
           <div className={styles.buttons}>
             <Link
               className='button button--secondary button--lg'
