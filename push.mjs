@@ -1,21 +1,25 @@
 #!/usr/bin/env zx
-// 时间
-const d = new Date()
-const year = d.getFullYear()
-const month = d.getMonth() + 1
-const day = d.getDate()
-const hour = d.getHours()
-const min = d.getMinutes()
-const sec = d.getSeconds()
-function fmt(num) {
-  if (num === 0) return '00'
-  if (num < 10) return '0' + num
-  return num
+
+const formatCurrentTime = () => {
+  const date = new Date()
+  const formattedDateTime = `${date.getFullYear()}-${(date.getMonth() + 1)
+    .toString()
+    .padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')} ${date
+    .getHours()
+    .toString()
+    .padStart(2, '0')}:${date.getMinutes().toString().padStart(2, '0')}:${date
+    .getSeconds()
+    .toString()
+    .padStart(2, '0')}`
+  return formattedDateTime
 }
 
-const time = ` 存档时间: ${year}-${fmt(month)}-${fmt(day)} ${fmt(hour)}:${fmt(min)}:${fmt(sec)}`
+const time = ` 存档时间: ${formatCurrentTime()}`
 // 查看当前分支名
-let process = await spinner('checking current branch', () => $`git branch --show-current`)
+let process = await spinner(
+  'checking current branch',
+  () => $`git branch --show-current`
+)
 const branch = process.stdout.trim()
 
 // 提交
