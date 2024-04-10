@@ -1,7 +1,7 @@
 ---
 title: 去除在 vscode 中无法识别 tailwindcss 的警告
 authors: [qsc]
-tags: [hooks]
+tags: [tailwind]
 ---
 
 ## 问题描述
