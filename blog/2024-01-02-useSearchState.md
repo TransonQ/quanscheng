@@ -51,8 +51,9 @@ https://codesandbox.io/p/sandbox/usesearchstate-key-init-9krjzz
 
 <iframe
       src="https://codesandbox.io/embed/9krjzz?view=Editor+%2B+Preview&module=%2Fsrc%2Fhooks%2FuseSearchState.ts&expanddevtools=1"
-      style={{ width: '100%', height: '500px', border: '0', borderRadius: '4px', overflow: 'hidden' }}
+      style={{ width: '100%', height: '600px', border: '0', borderRadius: '4px', overflow: 'hidden' }}
       title="useSearchState('key',init)"
       allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
       sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
     ></iframe>
+
