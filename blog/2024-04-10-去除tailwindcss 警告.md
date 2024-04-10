@@ -17,8 +17,8 @@ tags: [tailwind]
 打开 vscode 设置，输入`file associations` 添加项：
 
 ```
-*.css											tailwindcss
-*.scss										tailwindcss
+*.css     tailwindcss
+*.scss    tailwindcss
 ```
 
 ![image-20240410201406358](https://raw.githubusercontent.com/TransonQ/image-share/main/img/202404102014408.png)
